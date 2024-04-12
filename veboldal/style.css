@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .kartya {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    background-color: aquamarine;
+    float: left;
+
+  }
+  .kep1 {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+  }
+  .kep2 {
+    filter: grayscale(100%);
+  }
+  .kep3 {
+    border: 2px solid blue;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .kep1 {
+      width: 700px; 
+      height: 700px;
+    }
+  }
+  @media only screen and (min-width: 1280px) {
+    .kep1 {
+      width: 300px; 
+      height: 300px;
+    }
+  }
+  
